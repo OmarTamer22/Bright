@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LevelPage">
+
+    <TextView
+        android:id="@+id/welecomeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#BFFFFFFF"
+        android:textSize="20dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutBtn"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/welecomeTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="LogOut"
+        android:textColor="#122D78" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logoutBtn"
+        android:layout_marginTop="20dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/course1"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:text="Mobile Computing"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/course2"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/course1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Embeded System"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/course3"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/course2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="DataBase System"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/course4"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/course3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Information Theory"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/course5"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/course4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Artificial Intelligence"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/course6"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/course5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="General"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+</RelativeLayout>
