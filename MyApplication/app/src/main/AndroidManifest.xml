@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+<<<<<<< Updated upstream
             android:name=".Act1"
+=======
+            android:name=".omar"
+>>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".MainActivity"
