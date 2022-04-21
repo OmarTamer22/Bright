@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="hint">Choose Your Programe</string>
+    <string-array name="Programe">
+        <item>Choose Your Programe</item>
+        <item>CCE</item>
+        <item>EPE</item>
+        <item>MPE</item>
+        <item>CE</item>
+        <item>IE</item>
+    </string-array>
+</resources>

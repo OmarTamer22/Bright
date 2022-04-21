@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "95257960199",
+    "firebase_url": "https://bright-app-a3dfb-default-rtdb.firebaseio.com",
+    "project_id": "bright-app-a3dfb",
+    "storage_bucket": "bright-app-a3dfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95257960199:android:d0b116fb49cc91dff32fa2",
+        "android_client_info": {
+          "package_name": "cf.akfamily.myproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95257960199-s384ch0j0m284kt6t953osu55ijrlrdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnhelafFcmzJZe2Sd0rlLih4EnEKgdK5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95257960199-s384ch0j0m284kt6t953osu55ijrlrdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

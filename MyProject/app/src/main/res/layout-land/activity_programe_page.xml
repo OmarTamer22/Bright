@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProgramePage"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/welecomeTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#BFFFFFFF"
+        android:textSize="20dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutBtn"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/welecomeTxt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="LogOut"
+        android:textColor="#122D78" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logoutBtn"
+        android:layout_marginTop="40dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/commtree"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:text="Communication Tree"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/comptree"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/commtree"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Computer Tree"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/regis"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/comptree"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Registration"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/schedule"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/regis"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Schedule"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/tutorial"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/schedule"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="tutorial"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textStyle="bold|italic"
+                app:cornerRadius="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+        
+
+
+
+
+
+</RelativeLayout>
